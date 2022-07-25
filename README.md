@@ -64,5 +64,5 @@ Next, T-tests were done to see if there were done across all manufacturing lots 
 -Manufacturing Lot 3 has a P-Value of .004168 which is low enough to accept a null hypothesis.  There is a statistical difference between Manufacturing Lot 3 and the population mean beyond random chance.  This further supports the summary statistic findings discussed previously.  
 
 ## Study Design: MechaCar vs Competition
-
+With gas prices soaring, consumers are extremely conscious of fuel efficiency.  With this in mind, a further statistical study can be done exploring the MechaCar prototype's highway fuel efficiency versus vehicles of other manufacturers.  The null hypothesis for this study would be that there is no statistical difference between fuel efficiency of the MechaCar and that of the competitors.  The alternative hypothesis then would be that there is a statistical difference.  For this study, we would need competitors' data regarding highway fuel efficiency to combine with the MechaCar data.  We could use a one-way ANOVA test to check if the means of all groups are equal.  
 
