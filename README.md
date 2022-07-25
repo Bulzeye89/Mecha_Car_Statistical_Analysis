@@ -13,13 +13,15 @@ AutosRUs' newest prototype, MechaCar, is suffering from production troubles.  Th
 [Suspension_Coil.csv](https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv)<br>
 -Software: RScript, R
 
-## Results
-### Linear Regression to Predict MPG
-
-
+## Linear Regression to Predict MPG
 <p float="left">
 <img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Deliverable_1.png" 
 </p>  
+
+First the p-value prior to the analysis has been set to .05.  The screenshot above shows the code to run the linear regression using R-Script.  From this model, we can determine the following: 
+  - Vehicle length and ground clearance are the most significant variables in our dataset that show a non-random effect on MPG of the MechaCar.  The P-Value for vehicle length was 2.60e-12 while for ground clearance, it was 5.21e-08.  Both are significantly below the threshold of .05 that we set prior to running any analysis. 
+  - The overall P-value is 5.35e-11 which is statistially significant.  The relationship between the variables in the dataset and MPG is more than random chance and the slope of the linear model cannot be considered zero.  
+  - While there are other factors that aren't taken into consideration, the R-squared value of 0.7149 does signify that the model is strong (according to Pearson's correlation) to predict MPG values.  While the model can be used to accurately make predictions 72% of the time, it could be made stronger by finding additional variables that have more statistical significance to pair with vehicle length and ground clearance.   
 
 
 ## Summary Statistics on Suspension Coils
