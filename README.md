@@ -1,6 +1,6 @@
 # MechaCar Statistical Analysis
 ## Overview
-###Background
+### Background
 AutosRUs' newest prototype, MechaCar, is suffering from production troubles.  The company's upper management would like some analysis done to garner insight that may help the manufacturing team.  In particular, they have asked for:
 
   1. A linear regression analysis to identify which variables predict the MPG of the MechaCar prototype.
