@@ -38,23 +38,31 @@ Then, individual manufacturing lots' summary statistics (below) were found to co
 
 
 ## T-Tests on Suspension Coils
-
+Next, T-tests were done to see if there were done across all manufacturing lots to determine if there was a statistical difference from the population mean of 1,500 pounds per square inch. For the purposes of review, a null hypthosis will be used that there is no statistical difference from each manufacturing lot from the population mean.  
 <p float="left">
 <img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Population_ttest.png" 
 </p>  
+
+- Above, the results of the T-test for the suspension coils across all the manufacturing lots show that there is no statistical difference from the population mean.  In addition, the p-value is 0.06028, which is not low enough to reject a null hypothesis.
 
 <p float="left">
 <img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Lot1_ttest.png" 
 </p>  
 
+- Manufacturing Lot 1 has a P-value of 1 which is not low enough to reject a null hypothesis and it shows there is no statistical difference from the population mean.
+
 <p float="left">
 <img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Lot2_ttest.png" 
 </p>  
+
+- Manufacturing Lot 2 has a P-Value of .6072 which is not low enough to reject a null hypothesis and it shows there is not statistical difference from the population mean.  
 
 <p float="left">
 <img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Lot3_ttest.png" 
 </p>  
 
-
+-Manufacturing Lot 3 has a P-Value of .004168 which is low enough to accept a null hypothesis.  There is a statistical difference between Manufacturing Lot 3 and the population mean beyond random chance.  This further supports the summary statistic findings discussed previously.  
 
 ## Study Design: MechaCar vs Competition
+
+
