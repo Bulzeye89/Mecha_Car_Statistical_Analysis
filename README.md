@@ -25,12 +25,12 @@ First the p-value prior to the analysis has been set to .05.  The screenshot abo
 
 
 ## Summary Statistics on Suspension Coils
-
+First, total summary statistics were found the entire dataset as can be seen below.  The expectation is that the variance of the suspension coils must not exceed 100 pounds per square inch.  The entirety of the manufacturing data meets this design specificaction as can be seen in the table below. 
 <p float="left">
 <img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Total_Summary.png" 
 </p>  
 
-
+Then, individual manufacturing lots' summary statistics (below) were found to compare to the population dataset. Manufacturing Lot 1 and Manufacturing Lot 2 see very similar statisicts to the total summary findings.  However, Manufacturing Lot 3 see a significnt increase in variance of 170.29.  This does not meet the design specifications and further research and investigation should be done regarding the processes of Manufacturing Lot 3.  
 <p float="left">
 <img src="https://github.com/Bulzeye89/Mecha_Car_Statistical_Analysis/blob/main/Resources/Images/Lot_Summary.png" 
 </p>  
